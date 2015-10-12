@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>League Project 2.0</title>
+		<meta charset="utf-8">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<script src="jquery-1.11.3.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/sugar/1.4.1/sugar-full.min.js"></script>
+
+		<script src="RiotProject2.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="RiotProject2.3.css"> 
+	</head>
+
+	<body>
+		<form id="summonerNameForm"><input id="summonerName">
+		<input type="submit" onclick="" id="">
+		<div>Summoner Name</div>
+		</form>
+		
+		<button id="storyProgressionButton"><img src="rightButton.png" id="buttonImg"></button>
+		<button id="userSoundControl"><img src="volumeimg.png" id="volumeimg"></button>
+		<button id="endOfStoryButton">End</button>
+
+
+		<div id="container">
+		<!-- background vide -->
+			<div class="background"><div class="dot"><video src="campFireVid.mp4" id="campFireVid" loop></video></div></div>
+			<div id="test"></div>
+			<div id="summonerNameHolder"><span id="summonerNameText"></span></div>
+			<div id="summonerNameHolder2"><span id="summonerNameText2"></span></div>
+		
+			<div id="flashBackVideos" class="fbVideos"><div class="dot"><video src="dragonVideo.mp4" id="dragonVideo"></div></div>
+
+
+			<div id="storyTextHolderIntro" class="hiddenStory"><span id="storyTextIntro"></span></div>
+			<div id="storyTextHolderIntro2" class="hiddenStory"><span id="storyTextIntro2"></span></div>
+			<div id="storyTextHolderIntro3" class="hiddenStory"><span id="storyTextIntro3"></span></div>
+			<div id="storyTextHolderIntro4" class="hiddenStory"><span id="storyTextIntro4"></span></div>
+
+			<div id="allSummonerEndGame">
+				<table id="summonerTable1">
+					<tbody>
+		
+					</tbody>
+				</table>
+			</div>
+
+			<div>
+
+				<table id="summonerTable2">
+
+					<tbody>
+						
+					</tbody>
+
+				</table>
+			
+			</div>
+
+			
+		<!-- this section is for story images -->
+		
+			<div id="flashBack" class="hiddenImage"></div>
+			<div id="flashBack2" class="hiddenImage"></div>
+
+
+			<table id="sumEndStatsHolder">
+
+				<tr>
+					<td id="championFluff">
+						<img src="" alt="championImage" id="championTableImg"><br/>
+						<span></span>
+					</td>
+
+					<td>
+						K/D/A
+						<br />
+						<span id = "tableKills">
+
+							
+						</span>
+					</td>
+					<td id="tableKDA">
+						Total KDA
+						<br />
+
+					</td>
+					<td>
+						Creep Score
+						<br/>
+						<span id="tableCS">
+
+						</span>
+					</td>
+				</tr>
+			
+			</table>
+		<!-- <audio id="campFireSounds"><source src="fire-1.mp3" type="audio/mpeg"></audio> -->
+		
+			<audio id="BackgroundMusic" controls><source src="LoLQV.mp3" type="audio/mpeg"></audio>
+			<audio id="summonerNameFormClickSound"><source src="playSound.mp3" type="audio/mpeg"></audio>
+			<audio id="dragonSound"><source src="dragonSound.wav" type="audio/mpeg"></audio>
+		
+		<!-- audio control for user -->
+			
+		</div>
+	</body>
+</html>

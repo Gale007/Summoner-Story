@@ -1,0 +1,425 @@
+/* #summonerNameForm
+{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    
+    -webkit-transform: translate(-50%, -50%);
+    -transform: translate(-50%, -50%);
+    z-index: 2;
+} */
+
+
+#summonerNameHolder
+{
+
+	position: absolute;
+	font-size: 20;
+	color: orange;
+}
+
+
+#summonerNameHolder2
+{
+
+	position: absolute;
+	font-size: 20;
+	color: orange;
+	left: 200px;
+}
+
+
+@font-face {
+    font-family: LeagueFont;
+    src: url(BOOTERFO.ttf);
+}
+
+form{
+	
+}
+
+
+
+#BackgroundMusic
+{
+	position: absolute;
+	left:700px;
+}
+
+
+
+#buttonImg{
+	height: 30px;
+	width: 30px;
+}
+#volumeimg{
+	height: 30px;
+	width: 30px;
+}
+#userSoundControl
+{
+	color:orange;
+	visibility: hidden;
+}
+
+
+#endOfStoryButton
+{
+
+	color:orange;
+	visibility: hidden;
+	
+}
+
+#storyProgressionButton
+{
+	
+	color:yellow; 
+	visibility: hidden;
+
+}
+#storyTextHolderIntro
+{
+	font-family: LeagueFont;
+	position: absolute;
+	padding: 3px;
+	z-index: 1;
+	top: 80px;
+	font-weight: bolder;
+	
+	text-shadow: -2px -2px black;
+}
+#storyTextHolderIntro2
+{
+	font-family: LeagueFont;
+	position: absolute;
+
+	z-index: 1;
+	padding: 3px;
+
+	top: 160px;
+	font-weight: bolder;
+	
+	text-shadow:-2px -2px black;
+}
+
+#storyTextHolderIntro3
+{
+	font-family: LeagueFont;
+	position: absolute;
+	
+	z-index: 1;
+	padding: 3px;
+
+	top: 240px;
+	font-weight: bolder;
+	
+	text-shadow: -2px -2px black;
+}
+#storyTextHolderIntro4
+{
+	font-family: LeagueFont;
+	position: absolute;
+	z-index: 1;
+
+	padding: 3px;
+
+	top: 420px;
+	font-weight: bolder;
+	
+	text-shadow: -2px -2px black;
+}
+
+#flashBack
+{
+	border-radius: 50%;
+	
+	width: 320px;
+	height: 300px;
+	position: absolute;
+	right:300px;
+	bottom: 220px;
+	background-color: transparent;
+	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+
+	box-shadow: 10px 15px 15px rgba(0,0,0,.85);
+	-moz-box-shadow: 10px 15px 15px rgba(0,0,0,.85);
+	-webkit-box-shadow:10px 15px 15px rgba(0,0,0,.85);
+	
+	min-width: 25%;
+	min-height: 40%;
+
+	visibility: hidden;
+	
+	z-index: 0;
+	
+}
+
+#flashBack2
+{
+	border-radius: 50%;
+	right:300px;
+	bottom: 220px;
+	position: absolute;
+	background-size: cover;
+	
+
+	-webkit-background-size: cover;
+
+	-moz-background-size: cover;
+
+	-o-background-size: cover;
+
+	box-shadow: 10px 15px 15px rgba(0,0,0,.85);
+	-moz-box-shadow: 10px 15px 15px rgba(0,0,0,.85);
+	-webkit-box-shadow:10px 15px 15px rgba(0,0,0,.85);
+	
+	min-width: 25%;
+	min-height: 40%;
+	background-color: transparent;
+	opacity: 0;
+	visibility: hidden;
+
+	z-index: 0;
+	
+}
+
+#relativeScaling
+{
+	position: absolute;	
+	border-radius: 70%;
+	right:700px;
+	bottom: 520px;
+	
+}
+#flashBackVideos 
+{
+	border-radius: 70%;
+	width: 400px;
+	height: 350px;
+	
+	position: absolute;
+	
+	
+	box-shadow: 10px 15px 15px rgba(0,0,0,.85);
+	-moz-box-shadow: 10px 15px 15px rgba(0,0,0,.85);
+	-webkit-box-shadow:10px 15px 15px rgba(0,0,0,.85);
+	
+	
+	overflow: hidden;
+	visibility: hidden;
+
+	opacity: 0;
+	transition:opacity 2s;
+	z-index: 0;
+	
+}
+
+
+
+#crumbzVid
+{
+	color:#B8860B;
+	text-decoration: none;
+}
+
+#gbay99Vid
+{
+	
+	color: #228B22;
+
+}
+
+
+
+
+
+
+table
+{
+
+	display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+} 
+#summonerTable1
+{
+	position:absolute; 
+	left:200px;
+	transition:opacity 2s;
+	opacity: 0;
+	visibility: hidden;
+	
+	text-align: center;
+}
+
+#summonerTable2
+{
+
+	position: absolute;
+	left:800px;
+	top:0px;
+	visibility: hidden;
+	transition:opacity 2s;
+	opacity:0;
+
+	text-align: center;
+
+}
+
+#sumEndStatsHolder
+{
+	position: absolute;
+	
+	border: 3px;
+	
+	bottom: 0px;
+
+	visibility: hidden;
+	opacity: 0;
+	transition:opacity 2s;
+
+}
+
+#championTableImg
+{
+	top:300px;
+	left:200px;
+	
+	height: 100px;
+}
+
+
+
+.fbVideos video
+{
+	min-height: 100%;
+	min-width: 100%;
+	
+	opacity: .3;
+	visibility: visible;
+}
+.background
+{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	overflow: hidden;
+	top:0;
+	left:0;
+}
+
+.vidSetter .dot video{
+	position: absolute;
+	width: 70%;
+	bottom: 0;
+	right: 0;
+	border-radius: 35%;
+	border: 1px dotted rgba(54, 54, 36, 1);
+
+
+	box-shadow:0px 0px 35px rgba(54, 54, 36,1);
+	opacity: .65;
+	visibility: hidden;
+	
+
+}
+.teamPngs
+{
+	height: 100px;
+	width: 100px;
+
+	
+}
+.winCheck
+{
+	font-size: 15px;
+	color: orange;
+	
+}
+#BGIMG
+{
+	position: absolute;
+	/* background-color: black; */
+	background-image:url('AsheWP.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition:opacity 12s;
+	z-index: -1;
+}
+.background .dot{
+	position: absolute;
+	background-color: rgba(7,7, 7, 1); 
+	
+	width: 100%;
+	height: 100%;
+	
+	z-index: -2;
+}
+.Link {
+	font-size: 43px;
+	text-decoration: none;
+}
+.hiddenStory
+{
+	font-size: 30px;
+	color: #CC0033;
+	opacity: 0;
+	transition: opacity 3.5s;
+}
+
+.hiddenImage
+{
+	opacity: 0;
+	transition:opacity 2s;
+}
+html, body
+{
+	/*background-size: cover;*/
+	overflow: auto;
+	
+	color: #CC0033;
+	font-weight: bolder;
+	margin: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+
+
+
+/* bootstrap stuff */
+.bsBGRED{
+
+	z-index:-15;
+}
+#BrandColoring
+{
+	color:orange;
+}
+#bootstrapHeader
+{
+	visibility: visible;
+
+	/* position: absolute;
+	top: 50%;
+	    left: 50%;
+	    
+	    -webkit-transform: translate(-50%, -50%);
+	    -transform: translate(-50%, -50%);
+	    z-index: 2; */
+}
+#options
+{
+	visibility: hidden;
+
+}
